@@ -501,6 +501,7 @@ a:hover{
 
 .downloads{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-content: center;
     margin: .7rem auto;
