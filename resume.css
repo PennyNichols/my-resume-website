@@ -68,7 +68,6 @@ a:hover{
     background-color: var(--secondaryBackgroundColor);
     padding: 3px;
     min-width: 250px;
-    max-width: 400px;
 }
 .right-section{
     grid-column: span 2;
@@ -546,11 +545,17 @@ a:hover{
     }
     .left-section{
         margin: 0 auto;
-        padding: 0 4rem;
+        padding: 0 0;
         display: flex;
         justify-content: center;
+        width: 90vw;
     
     }
+    .right-title{
+        text-align: center;
+        font-size: 1.75rem;
+    }
+   
     .theme-dot{
         width: 20px;
         height: 20px;
